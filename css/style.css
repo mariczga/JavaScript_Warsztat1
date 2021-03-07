@@ -1,0 +1,74 @@
+table, td, th {
+  border: 1px solid black;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+table.mainTable {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+.material-icons.orange600 { color: #efa24f; }
+.material-icons.middle {
+  vertical-align: middle;
+}
+.material-icons.grey{ color: #5a5957; }
+.material-icons.middle {
+  vertical-align: middle;
+}
+.material-icons.blue { color: #49c2e0; }
+.material-icons.middle {
+  vertical-align: middle;
+}
+
+a.addCity {
+  font-family: "Arial Light", Arial, sans-serif;
+  font-weight:bold;
+  color:#ffffff;
+  padding:6px 12px;
+  border-radius:6px;
+  background-color:#ffc200;
+  display:inline-block;
+  text-decoration:none;
+}
+
+list {
+    text-align: left;
+    max-width: 1300px;
+    margin: 30px auto;
+    padding: 0 20px;
+    list-style: none;
+  }
+  
+  .list li {
+    padding: 20px;
+    border-radius: 3px;
+    background: #df405a;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+  }
+  
+  .list li:nth-of-type(2n) {
+    background: #87314e;
+  }
+  
+  .list .holiday-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .list .holiday-date {
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+  }
+
